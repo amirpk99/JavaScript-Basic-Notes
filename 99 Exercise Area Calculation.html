@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+
+<script>
+
+function area_calculation(){
+var a,b,c,d;
+a=Number(document.getElementById("length").value);
+b=Number(document.getElementById("width").value);
+c= a * b;
+d= (a * b)/225;
+document.getElementById("answer").value= c;
+document.getElementById("marla").value= d;
+}
+</script>
+
+</head>
+<body>
+<input id="length" placeholder = "Enter Length" autocomplete="off"></br>
+<input id="width" placeholder = "Enter Width" autocomplete="off"></br>
+<button onclick="area_calculation()">Area</button></br>
+Area: <input id="answer"></br>
+Marla: <input id="marla">
+</body>
+</html>
