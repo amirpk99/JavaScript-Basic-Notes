@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        /* why learn JavaScript? 
+            JavaScript is event Based programming Language 
+            event like Click, Double Click, Right Click, Mouse Hover,Scroll, Key Press, Key UP Etc
+
+            Benifits of Learning JavaScript?
+            Web Development
+            Desktop App Development
+            Mobile App Development
+
+            Uses of JavaScript in Web Develpment
+            Dropdown menu
+            Animated Sliders
+            Maps
+            Chart Graphs
+            Pop-Up Window
+            Audio Players
+            Etc
+
+        */
+
+    var a = "<i>Hello World</i>";
+    document.write(a);
+    </script>
+    
+</body>
+</html>
